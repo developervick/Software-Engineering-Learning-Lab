@@ -37,8 +37,8 @@ Handle ambiguity → Handle trade-offs → Handle scale & failure
 
 ## Stage 1 — Fundamentals  →  [`curriculum/01-fundamentals/`](curriculum/01-fundamentals/)
 **Goal:** drill each fundamental **alone** until you can apply it without thinking.
-**Concepts (one file each):** responsibilities & cohesion · encapsulation ·
-composition vs inheritance · interfaces & contracts · validation & fail-fast ·
+**Concepts (one file each):** classes & objects · responsibilities & cohesion ·
+encapsulation · composition vs inheritance · interfaces & contracts · validation & fail-fast ·
 value objects vs entities · refactoring basics.
 **Move on when:** every fundamentals gate is checked in
 [`progress/concept-tracker.md`](progress/concept-tracker.md).

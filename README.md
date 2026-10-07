@@ -61,7 +61,7 @@ The full reasoning behind this repository — and how AI should behave inside it
 
 The single ordered path (see [`START-HERE.md`](START-HERE.md) for the clickable version):
 
-1. **Orientation** — [`docs/how-to-use-this-repo.md`](docs/how-to-use-this-repo.md) → [`ROADMAP.md`](ROADMAP.md).
+1. **Orientation** — [`docs/how-to-use-this-repo.md`](docs/how-to-use-this-repo.md) → [`ROADMAP.md`](ROADMAP.md). Keep [`docs/glossary.md`](docs/glossary.md) open for terminology.
 2. **Concepts** — [`curriculum/01-fundamentals/`](curriculum/01-fundamentals/) → [`curriculum/02-solid/`](curriculum/02-solid/) → [`curriculum/03-design-patterns/`](curriculum/03-design-patterns/) → [`curriculum/04-lld-topics/`](curriculum/04-lld-topics/).
 3. **Challenges** — [`challenges/level-01-fundamentals/`](challenges/level-01-fundamentals/) → up through [`challenges/level-05-system-design/`](challenges/level-05-system-design/).
 4. **Tracking** — [`progress/`](progress/).
@@ -72,8 +72,8 @@ The single ordered path (see [`START-HERE.md`](START-HERE.md) for the clickable 
 |---|---|
 | [`START-HERE.md`](START-HERE.md) | The single entry point + ordered study path |
 | [`ROADMAP.md`](ROADMAP.md) | The stages (0–6) and what "move on" means |
-| [`docs/`](docs/) | How to use the repo, the loops, the AI rules |
-| [`curriculum/`](curriculum/) | **Concepts** to learn & drill alone (37 concepts in 4 tracks) |
+| [`docs/`](docs/) | How to use the repo, the loops, the AI rules, the [glossary](docs/glossary.md) |
+| [`curriculum/`](curriculum/) | **Concepts** to learn & drill alone (38 concepts in 4 tracks) |
 | [`challenges/`](challenges/) | **Challenges** that combine concepts (5 levels + solutions) |
 | [`progress/`](progress/) | Concept tracker, capability matrix, gap list, dashboard |
 | [`notes/`](notes/) | Short concept notes derived from practice |

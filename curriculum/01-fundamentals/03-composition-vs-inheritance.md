@@ -5,6 +5,38 @@
 - **Status:** not-started
 - **Est. time:** 60–90 min
 
+## The words (LLD meaning — not the grammar meaning)
+
+- **Inheritance** (`class Child(Parent)`) = a child class **automatically gets the parent's
+  attributes and methods**, so it can reuse and (optionally) override them. It models an **is-a**
+  relationship **with the same behavior contract** — a child must be usable anywhere the parent is
+  (`Penguin` that can't `fly()` breaks that).
+- **Composition** = a class **holds another object** and delegates work to it (`self.engine`). It
+  models **has-a / uses-a** and lets you **swap the part** without touching the whole.
+
+```python
+# Inheritance: Child IS-A Parent; reuses its methods
+class Animal:
+    def eat(self): return "eating"
+class Dog(Animal):          # Dog gets eat() for free
+    pass
+Dog().eat()                 # -> "eating"
+
+# Composition: Car HAS-A Engine; swap the part freely
+class Engine:
+    def start(self): return "vroom"
+class Car:
+    def __init__(self, engine): self.engine = engine
+    def start(self): return self.engine.start()   # delegates
+Car(Engine()).start()       # -> "vroom"
+```
+
+> Rule of thumb: use inheritance for **is-a with an identical contract**; otherwise compose.
+> Full definitions: [`../../docs/glossary.md`](../../docs/glossary.md#inheritance).
+
+**Practice:** the drill below is your challenge — decide when inheritance is a trap and refactor to
+composition. The answer is not provided.
+
 ## Goal
 
 Reach for **composition** by default; recognize when an inheritance hierarchy is a trap.

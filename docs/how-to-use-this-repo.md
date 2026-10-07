@@ -66,6 +66,7 @@ Say which level you want. "I'm stuck" alone does **not** unlock the next level.
 | A concept note (only *after* a challenge) | `notes/` |
 | A recurring mistake (log the 3rd time) | `mistakes/` |
 | A reflection | `journal/CH-XXX.md` |
+| A term you can't define | `docs/glossary.md` (meaning + example + mini-practice) |
 | Concept mastery update | `progress/concept-tracker.md` |
 | Capability update | `progress/capabilities.md` |
 | A gap / weakness | `progress/gaps.md` |
@@ -75,7 +76,8 @@ Say which level you want. "I'm stuck" alone does **not** unlock the next level.
 You do not need to read everything. Do this:
 
 1. Read `../ROADMAP.md`.
-2. Start in `../curriculum/01-fundamentals/` — do **one** concept's drill. Then the next.
+2. Start in `../curriculum/01-fundamentals/` — begin with `00-classes-and-objects.md`, do **one**
+   concept's drill, then the next. Stuck on a word? Look it up in `../docs/glossary.md`.
 3. Only after the relevant gates are met, do a challenge from `../challenges/`.
 
 That's the whole idea: one starting point, one step at a time.

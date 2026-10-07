@@ -5,6 +5,7 @@
 
 | # | Concept | Gate |
 |---|---------|------|
+| 0 | [Classes & objects (and methods)](00-classes-and-objects.md) | ☐ |
 | 1 | [Responsibilities & cohesion](01-responsibilities-and-cohesion.md) | ☐ |
 | 2 | [Encapsulation](02-encapsulation.md) | ☐ |
 | 3 | [Composition vs inheritance](03-composition-vs-inheritance.md) | ☐ |

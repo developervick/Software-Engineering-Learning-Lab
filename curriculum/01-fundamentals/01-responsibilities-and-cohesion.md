@@ -5,6 +5,36 @@
 - **Status:** not-started
 - **Est. time:** 45–90 min
 
+## The words (LLD meaning — not the grammar meaning)
+
+- **Responsibility** = a **reason this type would need to change** — normally tied to one *actor*
+  (the person/team/system that asks for the change). It is not "a thing it does"; it is "who makes
+  me edit this".
+- **Cohesion** = how strongly the parts **inside one unit** belong together and serve **one** job.
+  High cohesion → everything in the class exists for the same reason. Low cohesion → the class is
+  a grab-bag of unrelated jobs.
+
+```python
+# LOW cohesion: one class, several unrelated reasons to change
+class Report:
+    def build_rows(self): ...
+    def to_pdf(self): ...
+    def save_to_db(self): ...
+    def email_to_manager(self): ...
+
+# HIGH cohesion: each class does one job and has one reason to change
+class ReportData: ...        # builds rows
+class PdfRenderer: ...       # renders
+class ReportRepository: ...  # persists
+class ReportMailer: ...      # emails
+```
+
+> **Cohesion vs coupling:** *cohesion* is about what's **inside one unit**; *coupling* is about how
+> units **depend on each other**. Full definitions: [`../../docs/glossary.md`](../../docs/glossary.md#cohesion).
+
+**Practice:** the drill below **is** your cohesion challenge — work it alone; the answer is not
+provided anywhere.
+
 ## Goal
 
 Give each type **one clear job** — so you can name what it does in a sentence without "and".

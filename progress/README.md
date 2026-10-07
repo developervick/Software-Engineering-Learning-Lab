@@ -11,7 +11,7 @@ The single place to answer **"where am I, and what's next?"**
 ## Dashboard
 
 - **Current stage:** Stage 1 — Fundamentals
-- **Current concept:** `curriculum/01-fundamentals/01-responsibilities-and-cohesion.md`
+- **Current concept:** `curriculum/01-fundamentals/00-classes-and-objects.md`
 - **Blocking gaps:** none yet
 - **Challenges unlocked:** none (finish the relevant concept gates first)
 

@@ -33,7 +33,7 @@ each one alone. Isolation exposes exactly which one you don't actually understan
 
 | # | Track | Concepts |
 |---|-------|----------|
-| 01 | [fundamentals](01-fundamentals/) | 7 |
+| 01 | [fundamentals](01-fundamentals/) | 8 |
 | 02 | [solid](02-solid/) | 5 |
 | 03 | [design-patterns](03-design-patterns/) | 15 |
 | 04 | [lld-topics](04-lld-topics/) | 10 |
