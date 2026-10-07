@@ -13,6 +13,8 @@ producing a small design whose pieces each have one clear job.
 | ID | Title | Type | Status |
 |----|-------|------|--------|
 | [CH-001](CH-001-vending-machine.md) | Vending Machine | Design + Implementation | not started |
+| [CH-002](CH-002-coffee-shop-order.md) | Coffee Shop Order | Design + Implementation | not started |
+| [CH-003](CH-003-shopping-cart-checkout.md) | Shopping Cart Checkout | Design + Implementation | not started |
 
 **Move on when:** you can turn a vague requirement into a small, correct design and explain
 why each piece exists.

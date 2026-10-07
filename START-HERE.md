@@ -17,8 +17,8 @@ common way to end up "understanding" a topic without being able to actually buil
 
 1. Pick a language (Python is a fine default) and confirm you can run a test file.
 2. Open **[`docs/how-to-use-this-repo.md`](docs/how-to-use-this-repo.md)** — the method + AI rules.
-3. Start at **[`curriculum/01-fundamentals/01-responsibilities-and-cohesion.md`](curriculum/01-fundamentals/01-responsibilities-and-cohesion.md)**.
-4. When you pass its gate, mark it in **[`progress/concept-tracker.md`](progress/concept-tracker.md)** and go to concept **#2** in that folder.
+3. Start at **[`curriculum/01-fundamentals/00-classes-and-objects.md`](curriculum/01-fundamentals/00-classes-and-objects.md)**.
+4. When you pass its gate, mark it in **[`progress/concept-tracker.md`](progress/concept-tracker.md)** and go to concept **#1** in that folder.
 
 That's it. The rest of this page is just the full ordered map.
 
@@ -37,7 +37,8 @@ The whole repo is **one path**. Every link below is in the order you should do i
 Finish **every** concept in a track before moving to the next track. Inside a track, follow
 the numbering. Pass each file's **Done-when gate** before moving on.
 
-1. **Fundamentals** → [`curriculum/01-fundamentals/`](curriculum/01-fundamentals/) *(7 concepts)*
+1. **Fundamentals** → [`curriculum/01-fundamentals/`](curriculum/01-fundamentals/) *(8 concepts)*
+   0. Classes & objects (and methods) ← start here
    1. Responsibilities & cohesion
    2. Encapsulation
    3. Composition vs inheritance
@@ -60,11 +61,11 @@ the numbering. Pass each file's **Done-when gate** before moving on.
 Start a challenge only once the concept gates it **Combines** are met (every challenge lists
 its **Prereqs**). Do the levels in order:
 
-1. [`challenges/level-01-fundamentals/`](challenges/level-01-fundamentals/) — e.g. [CH-001 Vending Machine](challenges/level-01-fundamentals/CH-001-vending-machine.md)
-2. [`challenges/level-02-solid-and-basic-lld/`](challenges/level-02-solid-and-basic-lld/)
-3. [`challenges/level-03-intermediate-lld/`](challenges/level-03-intermediate-lld/)
-4. [`challenges/level-04-advanced-lld/`](challenges/level-04-advanced-lld/)
-5. [`challenges/level-05-system-design/`](challenges/level-05-system-design/) ← this is **Stage 6**
+1. [`challenges/level-01-fundamentals/`](challenges/level-01-fundamentals/) *(CH-001–003)* — e.g. [CH-001 Vending Machine](challenges/level-01-fundamentals/CH-001-vending-machine.md)
+2. [`challenges/level-02-solid-and-basic-lld/`](challenges/level-02-solid-and-basic-lld/) *(CH-004–009)*
+3. [`challenges/level-03-intermediate-lld/`](challenges/level-03-intermediate-lld/) *(CH-010–017)*
+4. [`challenges/level-04-advanced-lld/`](challenges/level-04-advanced-lld/) *(CH-018–024)*
+5. [`challenges/level-05-system-design/`](challenges/level-05-system-design/) *(CH-025–029)* ← this is **Stage 6**
 
 Put your work in [`challenges/solutions/CH-XXX/`](challenges/solutions/).
 
@@ -95,6 +96,7 @@ Put your work in [`challenges/solutions/CH-XXX/`](challenges/solutions/).
 
 - Project overview & philosophy → [`README.md`](README.md)
 - The method & AI rules → [`docs/how-to-use-this-repo.md`](docs/how-to-use-this-repo.md)
+- Any term you can't define → [`docs/glossary.md`](docs/glossary.md)
 - The staged plan → [`ROADMAP.md`](ROADMAP.md)
 
 ---

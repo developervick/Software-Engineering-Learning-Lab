@@ -30,6 +30,10 @@ Levels: **0** unknown · **1** aware · **2** can with help · **3** can indepen
 
 _Pending: CH-001 (Vending Machine), once the fundamentals concepts preceding it are done._
 
+All challenges **CH-001 – CH-029** across the five levels are now published under
+[`../challenges/`](../challenges/). Take the baseline from whichever level's prereq gates you
+have already met — see [`concept-tracker.md`](concept-tracker.md).
+
 ## What I can now do that I couldn't before
 
 _(updated after meaningful concepts/challenges)_
